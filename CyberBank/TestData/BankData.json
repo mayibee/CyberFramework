@@ -1,0 +1,36 @@
+{
+    "appData":{
+        "bankName": "XYZ Bank",
+        "bankManagerLoginButtonText": "Bank Manager Login",
+        "addCustomerButtonText": "Add Customer",
+        "openAccountButtonText": "Open Account",
+        "customersButtonText": "Customers"
+    },
+
+    "customers":[
+        {
+            "fName":"Mark",
+            "lName":"Zuckerberg",
+            "postCd":"21005",
+            "accountNumber":"" 
+        },
+        {
+            "fName":"Jack",
+            "lName":"Ma",
+            "postCd":"33445",
+            "accountNumber":"" 
+        },
+        {
+            "fName":"Jeff",
+            "lName":"Bezos",
+            "postCd":"22105",
+            "accountNumber":"" 
+        }
+    ],
+
+    "locators":{
+        "homePage":{
+            "bankManagerLogin":"manager()"
+        }
+    }
+}
