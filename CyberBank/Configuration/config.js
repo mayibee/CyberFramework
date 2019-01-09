@@ -1,11 +1,11 @@
 exports.config = {
-	// specs: ['../Tests/Demo.spec.js'],
+	specs: ['../Tests/demo.spec.js'],
 
-	suites:{
+// 	suites:{
 
-		smoke:['../Tests/demo.spec.js'],
-		regression:['../Tests/*.spec.js']
-	},
+// 		smoke:['../Tests/demo.spec.js'],
+// 		regression:['../Tests/*.spec.js']
+// 	},
  
 	sauceUser: process.env.SAUCE_USERNAME,
 	sauceKey: process.env.SAUCE_ACCESS_KEY,
