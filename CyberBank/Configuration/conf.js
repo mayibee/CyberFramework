@@ -3,20 +3,20 @@ var HtmlReporter = require('protractor-beautiful-reporter');
 
 exports.config = {
    
-    directConnect : true,
+//     directConnect : true,
     seleniumAddress: 'http://localhost:4444/wd/hub/',
   
     capabilities: {
         browserName: 'chrome'
     },
   
-    specs: ['../Tests/AddCustomer.spec.js'], 
-    suites: {
-        smoke: ['../Tests/BankManagerSimple.spec.js','../Tests/demo.spec.js'],
+    specs: ['../Tests/demo.spec.js'], 
+//     suites: {
+// //         smoke: ['../Tests/BankManagerSimple.spec.js','../Tests/demo.spec.js'],
         //run with protractor conf.js --suite=smoke
-        regression: ['../Tests/*.spec.js'] //We may not have a control on which one to start first. regression has a wild card, *.spec.js which means run everything underneath Tests folder
+//         regression: ['../Tests/*.spec.js'] //We may not have a control on which one to start first. regression has a wild card, *.spec.js which means run everything underneath Tests folder
         //run with protractor conf.js --suite=regression
-    },
+//     },
 
     onPrepare: function () {
         browser.driver.manage().window().maximize();
