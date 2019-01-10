@@ -42,23 +42,23 @@ describe('Add Customer', () => {
             AddCustomerPage.postCodeInputBox.sendKeys(protractor.Key.ENTER);
             expect(AddCustomerPage.postCodeInputBox.getAttribute('class')).toContain('ng-invalid-required');
         });
-        it('should add Customer', () => {
-            for (let i=0; i<BankData.customers.length; i++) {
-                BankManagerPage.addCustomerButton.click();
-                AddCustomerPage.firstNameInputBox.sendKeys(BankData.customers[i].fName);
-                AddCustomerPage.lastNameInputBox.sendKeys(BankData.customers[i].lName);
-                AddCustomerPage.postCodeInputBox.sendKeys(BankData.customers[i].postCd);
-                AddCustomerPage.formAddCustomerSubmit.click();
-                browser.sleep(2000);
-                expect(browser.switchTo().alert().getText()).toContain('Customer added successfully with customer id :');
-                browser.switchTo().alert().accept();
-                BankManagerPage.customersButton.click();
-                expect(Customers.getLastRowValue(1).getText()).toEqual(BankData.customers[i].fName);
-                expect(Customers.getLastRowValue(2).getText()).toEqual(BankData.customers[i].lName);
-                expect(Customers.getLastRowValue(3).getText()).toEqual(BankData.customers[i].postCd);
-            }
-            browser.sleep(2000);
-        });
+//         it('should add Customer', () => {
+//             for (let i=0; i<BankData.customers.length; i++) {
+//                 BankManagerPage.addCustomerButton.click();
+//                 AddCustomerPage.firstNameInputBox.sendKeys(BankData.customers[i].fName);
+//                 AddCustomerPage.lastNameInputBox.sendKeys(BankData.customers[i].lName);
+//                 AddCustomerPage.postCodeInputBox.sendKeys(BankData.customers[i].postCd);
+//                 AddCustomerPage.formAddCustomerSubmit.click();
+//                 browser.sleep(2000);
+//                 expect(browser.switchTo().alert().getText()).toContain('Customer added successfully with customer id :');
+//                 browser.switchTo().alert().accept();
+//                 BankManagerPage.customersButton.click();
+//                 expect(Customers.getLastRowValue(1).getText()).toEqual(BankData.customers[i].fName);
+//                 expect(Customers.getLastRowValue(2).getText()).toEqual(BankData.customers[i].lName);
+//                 expect(Customers.getLastRowValue(3).getText()).toEqual(BankData.customers[i].postCd);
+//             }
+//             browser.sleep(2000);
+//         });
 //         it('should not have new customer account number in list', () => {
 //             BankManagerPage.customersButton.click();
 //             expect(Customers.getLastRowValue(4).getText()).toEqual('');
