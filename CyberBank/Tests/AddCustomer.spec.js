@@ -59,9 +59,9 @@ describe('Add Customer', () => {
             }
             browser.sleep(2000);
         });
-        it('should not have new customer account number in list', () => {
-            BankManagerPage.customersButton.click();
-            expect(Customers.getLastRowValue(4).getText()).toEqual('');
-        });
+//         it('should not have new customer account number in list', () => {
+//             BankManagerPage.customersButton.click();
+//             expect(Customers.getLastRowValue(4).getText()).toEqual('');
+//         });
     });
 });
