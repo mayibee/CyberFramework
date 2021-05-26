@@ -10,7 +10,7 @@ exports.config = {
         browserName: 'chrome'
     },
   
-    specs: ['../Tests/demo.spec.js'], 
+    specs: ['../Tests/AddCustomer.spec.js'], 
     suites: {
         smoke: ['../Tests/BankManagerSimple.spec.js','../Tests/demo.spec.js'],
         //run with protractor conf.js --suite=smoke

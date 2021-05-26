@@ -168,123 +168,174 @@ app.controller('ScreenshotReportController', function ($scope) {
 
     var results = [
     {
-        "description": "should display form for Adding Customer|Adding a Customer|Add Customer",
+        "description": "should have correct page title|Manager Login|Bank Manager",
         "passed": true,
         "pending": false,
         "os": "Mac OS X",
-        "instanceId": 46640,
+        "instanceId": 26198,
         "browser": {
             "name": "chrome",
-            "version": "70.0.3538.110"
+            "version": "71.0.3578.98"
         },
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "images/00260019-00fc-001a-007c-007a001a0053.png",
-        "timestamp": 1543552626034,
-        "duration": 496
+        "screenShotFile": "images/00ee0075-00cf-00aa-009f-00f400530074.png",
+        "timestamp": 1548259939541,
+        "duration": 4014
     },
     {
-        "description": "should list all the labels in the form|Adding a Customer|Add Customer",
+        "description": "should display home button|Manager Login|Bank Manager",
         "passed": true,
         "pending": false,
         "os": "Mac OS X",
-        "instanceId": 46640,
+        "instanceId": 26198,
         "browser": {
             "name": "chrome",
-            "version": "70.0.3538.110"
+            "version": "71.0.3578.98"
         },
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "images/0052007c-0068-0019-009c-00c3006900ac.png",
-        "timestamp": 1543552626856,
-        "duration": 122
+        "screenShotFile": "images/0008009e-008e-005b-0090-0034004400fb.png",
+        "timestamp": 1548259943881,
+        "duration": 1423
     },
     {
-        "description": "should require First Name|Adding a Customer|Add Customer",
+        "description": "should display page header|Manager Login|Bank Manager",
         "passed": true,
         "pending": false,
         "os": "Mac OS X",
-        "instanceId": 46640,
+        "instanceId": 26198,
         "browser": {
             "name": "chrome",
-            "version": "70.0.3538.110"
+            "version": "71.0.3578.98"
         },
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "images/006c0097-0021-00b8-0006-005800000038.png",
-        "timestamp": 1543552627263,
-        "duration": 46
+        "screenShotFile": "images/008900f1-0016-005f-00b1-00a700670077.png",
+        "timestamp": 1548259945568,
+        "duration": 1439
     },
     {
-        "description": "should require Last Name|Adding a Customer|Add Customer",
+        "description": "should display login option for Bank Manager|Manager Login|Bank Manager",
         "passed": true,
         "pending": false,
         "os": "Mac OS X",
-        "instanceId": 46640,
+        "instanceId": 26198,
         "browser": {
             "name": "chrome",
-            "version": "70.0.3538.110"
+            "version": "71.0.3578.98"
         },
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "images/007b0003-00c1-0025-007f-001400ad0016.png",
-        "timestamp": 1543552627589,
-        "duration": 138
+        "screenShotFile": "images/00910003-0064-00d6-001f-00e5000c00b4.png",
+        "timestamp": 1548259947267,
+        "duration": 1162
     },
     {
-        "description": "should require Post Code|Adding a Customer|Add Customer",
+        "description": "should stay at the homepage when Home Button is clicked|Manager Login|Bank Manager",
         "passed": true,
         "pending": false,
         "os": "Mac OS X",
-        "instanceId": 46640,
+        "instanceId": 26198,
         "browser": {
             "name": "chrome",
-            "version": "70.0.3538.110"
+            "version": "71.0.3578.98"
         },
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "images/00050044-00b9-00e5-0069-006800220018.png",
-        "timestamp": 1543552628150,
-        "duration": 125
+        "screenShotFile": "images/003a0038-004d-0093-0099-0012009800b1.png",
+        "timestamp": 1548259948689,
+        "duration": 1210
     },
     {
-        "description": "should add Customer|Adding a Customer|Add Customer",
+        "description": "should login as Bank Manager|Manager Login|Bank Manager",
         "passed": true,
         "pending": false,
         "os": "Mac OS X",
-        "instanceId": 46640,
+        "instanceId": 26198,
         "browser": {
             "name": "chrome",
-            "version": "70.0.3538.110"
+            "version": "71.0.3578.98"
         },
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "images/001600da-0066-0046-0089-0083001800db.png",
-        "timestamp": 1543552628607,
-        "duration": 10647
+        "screenShotFile": "images/00c500de-006f-00dc-0012-0076007e0069.png",
+        "timestamp": 1548259950167,
+        "duration": 1602
     },
     {
-        "description": "should not have new customer account number in list|Adding a Customer|Add Customer",
+        "description": "should display Bank Manager buttons|Manager Login|Bank Manager",
         "passed": true,
         "pending": false,
         "os": "Mac OS X",
-        "instanceId": 46640,
+        "instanceId": 26198,
         "browser": {
             "name": "chrome",
-            "version": "70.0.3538.110"
+            "version": "71.0.3578.98"
         },
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "images/001600c1-004a-0016-004b-004600bd0050.png",
-        "timestamp": 1543552639556,
-        "duration": 133
+        "screenShotFile": "images/00f10076-0039-00f6-00d4-008b00ee00fe.png",
+        "timestamp": 1548259952028,
+        "duration": 1356
+    },
+    {
+        "description": "should navigate back home page from Manager Login Page|Manager Login|Bank Manager",
+        "passed": true,
+        "pending": false,
+        "os": "Mac OS X",
+        "instanceId": 26198,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "images/00730019-0091-00ac-0077-001e00700000.png",
+        "timestamp": 1548259953645,
+        "duration": 1371
+    },
+    {
+        "description": "should navigate back to home page from Manager Login Page - negative case scenario|Manager Login|Bank Manager",
+        "passed": true,
+        "pending": false,
+        "os": "Mac OS X",
+        "instanceId": 26198,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "images/00d60066-0042-002e-0074-000700630098.png",
+        "timestamp": 1548259955271,
+        "duration": 1583
+    },
+    {
+        "description": "should check if element is displayed|Demonstrating Jasmine Spec Reporter",
+        "passed": true,
+        "pending": false,
+        "os": "Mac OS X",
+        "instanceId": 26198,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "images/00150062-00c4-00ea-005f-00fe0010003b.png",
+        "timestamp": 1548259957166,
+        "duration": 4885
     }
 ];
 
